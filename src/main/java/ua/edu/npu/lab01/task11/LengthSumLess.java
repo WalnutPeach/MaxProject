@@ -1,13 +1,12 @@
 package ua.edu.npu.lab01.task11;
 
 public class LengthSumLess {
-    Length l = new Length();
     int i = 0;
     double lSum = 0;
     double lessSum;
     double lengthSum (PointArr Arr) {
         for (int j = 0; j < Arr.pArr.length; j++) {
-            lSum += l.findLength(Arr.pArr[i], Arr.pArr[j]);
+            lSum += Length.findLength(Arr.pArr[i], Arr.pArr[j]);
         }
         i++;
         return lSum;
