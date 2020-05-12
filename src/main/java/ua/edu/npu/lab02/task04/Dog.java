@@ -17,10 +17,7 @@ public class Dog {
     }
 
     public Dog(){
-        name = "Undefined";
-        age = 0;
-        count++;
-        System.out.println("Created dog");
+        this("Undefined", 0);
     }
 
     public void voice () {
