@@ -21,4 +21,8 @@ public class Dog {
         }
         System.out.println("");
     }
+
+    public void showDogData () {
+        System.out.println("Name: " + name + "   Age: " + age);
+    }
 }
