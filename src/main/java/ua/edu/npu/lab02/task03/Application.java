@@ -4,9 +4,13 @@ public class Application {
     public static void main(String[] args) {
         Dog dog1 = new Dog("Jack", 4);
         Dog dog2 = new Dog();
-        System.out.println("Name: " + dog1.name + "   Age: " + dog1.age);
+        printDogData(dog1);
         dog1.voice();
-        System.out.println("Name: " + dog2.name + "   Age: " + dog2.age);
+        printDogData(dog2);
         dog2.voice();
+    }
+    
+    private static void printDogData(Dog dog) {
+        System.out.println("Name: " + dog.name + "   Age: " + dog.age);
     }
 }
