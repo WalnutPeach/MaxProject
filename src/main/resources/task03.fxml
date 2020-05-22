@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.edu.npu.lab05.task03.Controller.Task03Control">
+   <children>
+      <ComboBox layoutX="75.0" layoutY="60.0" prefWidth="150.0" promptText="Виберіть морозиво">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:id="Cream" fx:value="Пломбір" />
+               <String fx:id="Chocolate" fx:value="Шоколадне" />
+               <String fx:id="Vanilla" fx:value="Ванільне" />
+            </FXCollections>
+         </items>
+      </ComboBox>
+      <VBox layoutX="75.0" layoutY="107.0" prefHeight="80.0" prefWidth="100.0" spacing="15.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="Шоколад" />
+            <CheckBox mnemonicParsing="false" text="Горішки" />
+            <CheckBox fx:id="jam" mnemonicParsing="false" onAction="#init" text="Джем" />
+         </children>
+      </VBox>
+      <ChoiceBox fx:id="jamSelect" disable="true" layoutX="75.0" layoutY="200.0" prefWidth="150.0">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:id="Apple" fx:value="Яблучний" />
+               <String fx:id="Strawberry" fx:value="Полуничний" />
+               <String fx:id="Banana" fx:value="Банановий" />
+               <String fx:id="Orange" fx:value="Апельсиновий" />
+               <String fx:id="Pear" fx:value="Грушевий" />
+            </FXCollections>
+         </items>
+      </ChoiceBox>
+      <Button text="Замовити" layoutX="75.0" layoutY="250.0" prefWidth="150.0"/>
+   </children>
+</AnchorPane>
