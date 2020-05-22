@@ -19,6 +19,11 @@
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -39,7 +44,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>8.7.0</version>
                 <configuration>
-                    <mainClass>ua.edu.npu.lab05.task01.Application</mainClass>
+                    <mainClass>ua.edu.npu.lab05.task02.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>
