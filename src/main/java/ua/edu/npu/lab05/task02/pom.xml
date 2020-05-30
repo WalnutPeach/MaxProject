@@ -8,20 +8,14 @@
     <artifactId>MaxProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
-        <javafx.version>11.0.2</javafx.version>
+    <javafx.version>11.0.2</javafx.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>${javafx.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
             <version>${javafx.version}</version>
         </dependency>
     </dependencies>
