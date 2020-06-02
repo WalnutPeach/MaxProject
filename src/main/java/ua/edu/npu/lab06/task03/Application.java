@@ -37,6 +37,6 @@ public class Application {
                 return "";
             }
         };
-        System.out.println(inter.method("madam"));
+        System.out.println(inter.method("Madam"));
     }
 }
