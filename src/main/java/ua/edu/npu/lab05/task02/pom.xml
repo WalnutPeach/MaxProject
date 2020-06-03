@@ -8,9 +8,8 @@
     <artifactId>MaxProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
-        <javafx.version>11.0.2</javafx.version>
+    <javafx.version>11.0.2</javafx.version>
     </properties>
 
     <dependencies>
@@ -39,7 +38,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>8.7.0</version>
                 <configuration>
-                    <mainClass>ua.edu.npu.lab05.task01.Application</mainClass>
+                    <mainClass>ua.edu.npu.lab05.task02.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>
